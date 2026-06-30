@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Libram",
+            "request": "launch",
+            "mainClass": "com.taydev.libram.Main",
+            "vmArgs": "--module-path \"${env:USERPROFILE}/.m2/repository/org/openjfx\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
